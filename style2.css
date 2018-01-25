@@ -1,0 +1,52 @@
+#catheader{
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+#dogheader{
+    display: block; 
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#catPic{
+    -moz-transform: scaleX(-1);
+    o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    border-radius: 8px;
+    width:500px;
+}
+
+#dogPic{
+    border-radius: 50%;
+    width:500px;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#catName{
+    text-shadow: 2px 2px #ff0000;
+}
+
+
+
+#dogName{
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+
+#page-wrap{
+    width:  500px;
+    margin: 0 auto;
+}

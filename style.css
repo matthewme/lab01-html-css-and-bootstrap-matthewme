@@ -1,0 +1,53 @@
+#catheader{
+	color : green;
+}
+
+#dogheader{
+	color: red;
+}
+
+#catPic{
+	background-color:lightgray;
+    width:400px;
+    border-style:groove;
+    border-width:10px;
+}
+
+#dogPic{
+	background-color:lightgray;
+    width:400px;
+    border-style:groove;
+    border-width:10px;
+}
+
+table, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#catName{
+	animation: blinkerCat 1s linear infinite;
+}
+
+@keyframes blinkerCat {  
+  	0%   {color: cyan;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: purple;}
+}
+
+#dogName{
+	animation: blinkerDog 1s linear infinite;
+}
+
+@keyframes blinkerDog {  
+  	0%   {color: purple;}
+    25%  {color: blue;}
+    50%  {color: yellow;}
+    100% {color: cyan;}
+}
+
+#page-wrap{
+	width:	500px;
+	margin: 0 auto;
+}
